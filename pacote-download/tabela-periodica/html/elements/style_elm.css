@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700');
+
+@font-face {
+    font-family: 'GeometrySoft';
+    src: url(/Geometry\ Soft\ Pro-Bold\ N.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-body:black;
+}
+
+body{
+    background-color: var(--bg-body);
+    font-family: 'Montserrat';
+}
+
+.bg{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    background-color: var(--bg-body);
+}
+
+.elemento-tabela{
+    position: relative;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#titulo{
+    font-family: 'Montserrat';
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 1%;
+    /* margin-bottom: 1%; */
+}
+
+#titulo2{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+}
+
+h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    text-decoration: underline;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 1.7em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#semh:hover{
+    transition: 0;
+    transform:scale(1);
+    cursor: default;
+}
+
+p{
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 11px;
+    color: white;
+}
+
+p:before{
+    content:' ';
+	display:inline-block;
+	width:3.2em;
+}
+
+/* Formatação da tabela */
+
+td{
+    border: 3px solid;
+    border-radius: 7px;
+    width: 100px;
+    height: 70px;
+    background-color: black;
+}
+
+.celula{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+table{
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-bottom: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    /* padding: 15px; */
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:before{
+    content: '<';
+    padding-right: 4px;
+}
+
+#lista{
+    margin-bottom: 22px;
+}
+
+.list{
+    font-size: 22px;
+    margin-left: 3em;
+    margin-top: 1em;
+    color: white;
+}
+
+/* Formatação das células */
+
+:root{
+    --hidrogenio:#4c90c9;
+    --nao-metais:#6ACCCB;
+    --gases-nobres:#FA785C;
+    --metais-alcalinos:#0EB075;
+    --metais-transicao:#FF9A42;
+    --outros-metais:#c553ae;
+    --lantanideos:#ffcd28;
+    --metais-alcalinos-terrosos:#62d339;
+    --semi-metais:#fc9db2;
+    --halogenios:#00AFF1;
+    --actinideos:#905A5D;
+}
+
+.hidrogenio{
+    border-color: var(--hidrogenio);
+}
+
+.hidrogenio li{
+    color: var(--hidrogenio);
+}
+
+.naometais{
+    border-color: var(--nao-metais);
+}
+
+.naometais li{
+    color: var(--nao-metais);
+}
+
+.gasesnobres{
+    border-color: var(--gases-nobres);
+}
+
+.gasesnobres li{
+    color: var(--gases-nobres);
+}
+
+.metaisalcalinos{
+    border-color: var(--metais-alcalinos);
+}
+
+.metaisalcalinos li{
+    color: var(--metais-alcalinos);
+}
+
+.metaistransicao{
+    border-color: var(--metais-transicao);
+}
+
+.metaistransicao li{
+    color: var(--metais-transicao);
+}
+
+.outrosmetais{
+    border-color: var(--outros-metais);
+}
+
+.outrosmetais li{
+    color: var(--outros-metais);
+}
+
+.lantanideos{
+    border-color: var(--lantanideos);
+}
+
+.lantanideos li{
+    color: var(--lantanideos);
+}
+
+.metaisalcalinosterrosos{
+    border-color: var(--metais-alcalinos-terrosos);
+}
+
+.metaisalcalinosterrosos li{
+    color: var(--metais-alcalinos-terrosos);
+}
+
+.semimetais{
+    border-color: var(--semi-metais);
+}
+
+.semimetais li{
+    color: var(--semi-metais);
+}
+
+.halogenios{
+    font-family: 'Montserrat';
+    border-color: var(--halogenios);
+}
+
+.halogenios li{
+    color: var(--halogenios);
+}
+
+.actinideos{
+    color: var(--actinideos);
+    border-color: var(--actinideos);
+}
+
+.actinideos li{
+    color: var(--actinideos);
+}
+
+/*Formatação dos textos*/
+
+.atomico{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.numero{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    margin-bottom: 6px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.elemento{
+    font-family: 'GeometrySoft';
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nome{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
